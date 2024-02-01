@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster', sans-serif;
+}
+.bg-navbar-custom {
+    background-color: #373A3C;
+    color: #FFFFFF;
+}
+.navbar-brand {
+    font: Lobster;
+}
+.navbar-nav, .btn, .tex, H2, .news {
+    font-family: 'Cabin', sans-serif;
+    font-size: medium;
+}
+.navbar-collapse {
+    align-content: end;
+}
+
+.hero {
+    display: grid;
+}
+.hero-img {
+    border-radius: 4px;
+    width: 30rem;
+    height: 25rem;
+    object-fit: contain;
+}
+.hero-text {
+    text-align: right;
+}
+h1, h4 {
+    font-family: 'Cabin', sans-serif;
+    text-align: left;
+}
+
+.button {
+    font-family: 'Cabin', sans-serif;    
+}
+.moo {
+    column-gap: 15px;
+}
+.btn-outline-light {
+    margin:0 auto;
+    display: block;
+    
+}
+.red {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.correo {
+    background-color: #dc3545;
+}
+.news {
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    color: #FFFFFF;
+}
+.logo {
+    font-family: 'Lobster', sans-serif;
+    color: #FFFFFF    
+}
+
+
+
+
+.foot {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #373A3C;
+    padding: 2rem;
+}
+
+
+    /* 1 columna para smartphones */
+    breakpoint  {
+    max-width: 100%;
+    display: inline-block;
+    }
+    /* 2 columnas para tablets */
+    @media (min-width: 420px) {
+    breakpoint  {
+    max-width: 48%;
+    }
+    }
+    /* 4 columnas para grandes dispositivos*/
+    @media (min-width: 760px) {
+    breakpoint  {
+    max-width: 24%;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
